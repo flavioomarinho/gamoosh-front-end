@@ -1,0 +1,40 @@
+<ion-menu side="start" menuId="main-menu" content-id="main">
+
+  <ion-content>
+    <div class="menu-header-bg"></div>
+    <div class="header-content">
+      <img src="../assets/images/avatar.jpeg" alt="">
+      <h2>Flávio Marinho</h2>
+    </div>
+    <ion-list class="menu-itens" lines="none">
+      <ion-item routerLink="/tasks">
+        <ion-icon name="list"></ion-icon>Cadastro de Tarefas
+      </ion-item>
+      <ion-item routerLink="/rewards">
+        <ion-icon name="add"></ion-icon>Cadastro de Recompensas
+      </ion-item>
+      <ion-item routerLink="/users">
+        <ion-icon name="person-add"></ion-icon>Cadastro de Usuários
+      </ion-item>
+      <ion-item routerLink="/family">
+        <ion-icon name="people"></ion-icon>Cadastro de Familia
+      </ion-item>
+      <ion-item routerLink="/my-tasks">
+        <ion-icon name="list"></ion-icon>Tarefas
+      </ion-item>
+      <ion-item routerLink="/my-score">
+        <ion-icon name="basketball"></ion-icon>pontos
+      </ion-item>
+      <ion-item routerLink="/my-rewards">
+        <ion-icon name="pizza"></ion-icon> Recompensas
+      </ion-item>
+      <ion-item routerLink="/ranking">
+        <ion-icon name="pie-chart-outline"></ion-icon>Ranking
+      </ion-item>
+      <ion-item routerLink="/about">
+        <ion-icon name="planet"></ion-icon>Sobre
+      </ion-item>
+   </ion-list>
+  </ion-content>
+</ion-menu>
+<ion-router-outlet id="main"></ion-router-outlet>

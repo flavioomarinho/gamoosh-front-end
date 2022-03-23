@@ -1,0 +1,7 @@
+{
+  "name": "appGamoosh",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

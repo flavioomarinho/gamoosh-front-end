@@ -1,0 +1,6 @@
+{
+	"appId": "com.flaviomarinho.gamoosh",
+	"appName": "appGamoosh",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">appGamoosh</string>
+    <string name="title_activity_main">appGamoosh</string>
+    <string name="package_name">com.flaviomarinho.gamoosh</string>
+    <string name="custom_url_scheme">com.flaviomarinho.gamoosh</string>
+</resources>
